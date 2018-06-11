@@ -1,6 +1,6 @@
 FROM python:3
 
-ENV GDAL_VERSION=2.2.1
+ENV GEOS_VERSION=3.6.2
 
 # Install GEOS
 RUN wget http://download.osgeo.org/geos/geos-${GEOS_VERSION}.tar.bz2 -O /tmp/geos-${GEOS_VERSION}.tar.bz2 \
