@@ -7,6 +7,6 @@ RUN wget http://download.osgeo.org/geos/geos-${GEOS_VERSION}.tar.bz2 -O /tmp/geo
     && tar -xf /tmp/geos-${GEOS_VERSION}.tar.bz2 -C /tmp \
     && cd /tmp/geos-${GEOS_VERSION} \
     && ./configure \
-    && make \
-    && make install \
-    && rm -rf /tmp/geos-${GEOS_VERSION}
+    && make 
+#    && make install \
+#    && rm -rf /tmp/geos-${GEOS_VERSION}
